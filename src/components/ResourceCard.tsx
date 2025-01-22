@@ -6,9 +6,10 @@ interface ResourceCardProps {
   url: string;
   image: string;
   index: number;
+  description?: string; // Making description optional
 }
 
-export const ResourceCard = ({ title, url, image, index }: ResourceCardProps) => {
+export const ResourceCard = ({ title, url, image, index, description }: ResourceCardProps) => {
   const [isLoading, setIsLoading] = useState(true);
 
   return (
@@ -34,10 +35,21 @@ export const ResourceCard = ({ title, url, image, index }: ResourceCardProps) =>
             isLoading ? 'opacity-0' : 'opacity-100'
           }`}
         />
-        <div className="absolute inset-0 bg-black/5 group-hover:bg-black/20 transition-colors duration-300" />
+        {/* Overlay with description on hover */}
+        <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-6">
+          <div className="text-white text-center">
+            <h3 className="text-lg font-semibold mb-2">{title}</h3>
+            {description && (
+              <p className="text-sm text-gray-200">
+                {description}
+              </p>
+            )}
+          </div>
+        </div>
       </div>
-      <div className="p-6">
-        <h3 className="text-lg font-semibold text-gray-900 group-hover:text-gray-700 transition-colors duration-300">
+      {/* Title shown when not hovering */}
+      <div className="p-6 group-hover:opacity-0 transition-opacity duration-300">
+        <h3 className="text-lg font-semibold text-gray-900 group-hover:text-gray-700">
           {title}
         </h3>
         <div className="mt-4 flex items-center text-sm text-gray-600">

@@ -2,124 +2,130 @@ export const entrepreneurshipResources = [
   {
     title: "Sandbox",
     url: "https://sandbox.mit.edu/",
-    image: "photo-1486312338219-ce68d2c6f44d", // Keep existing image
+    image: "photo-1507207611509-ec012433ff52",
+    description: "Access MIT's innovation and entrepreneurship program"
   },
   {
-    title: "Martin Trust Centre",
+    title: "Martin Trust Center",
     url: "https://entrepreneurship.mit.edu/",
-    image: "photo-1497366754035-f200968a6e72", // Modern business center/incubator space
-  },
-  {
-    title: "Legatum Fellowship",
-    url: "https://www.legatum.com/portfolio/the-legatum-center-at-mit/",
-    image: "photo-1521737604893-d14cc237f11d", // Keep existing image
+    image: "photo-1497366216548-37526070297c",
+    description: "MIT's hub for entrepreneurship education and research"
   },
   {
     title: "Proto Ventures",
     url: "https://protoventures.mit.edu/",
-    image: "photo-1551434678-e076c223a692", // Team working on prototypes
+    image: "photo-1559136555-9303baea8ebd",
+    description: "Pioneering the future of venture creation"
   },
   {
     title: "C10 Labs",
     url: "https://www.c10labs.com/",
-    image: "photo-1532094349884-543bc11b234d", // Modern laboratory with equipment
-  },
-  {
-    title: "IHQ",
-    url: "https://ihq.mit.edu/",
-    image: "photo-1497366216548-37526070297c", // Keep existing image
-  },
-  {
-    title: "Engine Ventures",
-    url: "https://engineventures.com/",
-    image: "photo-1518770660439-4636190af475", // Keep existing image
-  },
-  {
-    title: "StartMIT",
-    url: "https://innovation.mit.edu/resource/startmit/",
-    image: "photo-1487058792275-0ad4aaf24ca7", // Keep existing image
-  },
-  {
-    title: "Fuse",
-    url: "https://entrepreneurship.mit.edu/mit-fuse/",
-    image: "photo-1551434678-e076c223a692", // Keep existing image
-  },
-  {
-    title: "DesignX Accelerator",
-    url: "https://designx.mit.edu/",
-    image: "photo-1523240795612-9a054b0db644", // Keep existing image
+    image: "photo-1581094794329-c8112a89af12",
+    description: "Innovation lab for cutting-edge technology solutions"
   },
   {
     title: "Delta V",
     url: "https://entrepreneurship.mit.edu/accelerator/program/",
-    image: "photo-1517245386807-bb43f82c33c4", // Rocket launch representing acceleration
+    image: "photo-1460925895917-afdab827c52f",
+    description: "MIT's premier startup accelerator program"
   },
   {
-    title: "Orbit",
-    url: "https://orbit.mit.edu/",
-    image: "photo-1446776811953-b23d57bd21aa", // Keep existing image
+    title: "MIT Sandbox Innovation Fund",
+    url: "https://sandbox.mit.edu/",
+    image: "photo-1507207611509-ec012433ff52",
+    description: "Funding and support for student-led ventures"
   },
   {
-    title: "Venture Cafe",
-    url: "https://venturecafecambridge.org/",
-    image: "photo-1517048676732-d65bc937f952", // Keep existing image (as requested)
+    title: "MIT Venture Mentoring Service",
+    url: "https://vms.mit.edu/",
+    image: "photo-1507207611509-ec012433ff52",
+    description: "Mentorship for MIT entrepreneurs"
   },
   {
-    title: "Deshpande Centre",
-    url: "https://deshpande.mit.edu/",
-    image: "photo-1522071820081-009f0129c71c", // Keep existing image
+    title: "MIT Innovation Initiative",
+    url: "https://innovation.mit.edu/",
+    image: "photo-1507207611509-ec012433ff52",
+    description: "Fostering innovation and entrepreneurship at MIT"
+  },
+  {
+    title: "MIT Tech Review",
+    url: "https://www.technologyreview.com/",
+    image: "photo-1507207611509-ec012433ff52",
+    description: "Insights on emerging technologies and their impact"
+  },
+  {
+    title: "MIT Media Lab",
+    url: "https://www.media.mit.edu/",
+    image: "photo-1507207611509-ec012433ff52",
+    description: "Research and innovation in media and technology"
+  },
+  {
+    title: "MIT Entrepreneurship Forum",
+    url: "https://entrepreneurship.mit.edu/forum/",
+    image: "photo-1507207611509-ec012433ff52",
+    description: "Connecting entrepreneurs and investors"
   },
 ];
 
 export const scholarlyGroups = [
   {
-    title: "MIT Technology Review",
-    url: "https://www.technologyreview.com/",
-    image: "photo-1461749280684-dccba630e2f6", // Keep existing image (as requested)
-  },
-  {
-    title: "MIT Initiative on Digital Economy",
-    url: "https://ide.mit.edu/",
-    image: "photo-1605810230434-7631ac76ec81", // Keep existing image (as requested)
-  },
-  {
     title: "MIT CSAIL",
     url: "https://www.csail.mit.edu/",
-    image: "photo-1550751827-4bd374c3f58b", // Computer science and AI laboratory
+    image: "photo-1555949963-ff9fe0c870eb",
+    description: "Computer Science and Artificial Intelligence Laboratory"
   },
   {
     title: "MIT Science Policy Review",
     url: "https://sciencepolicyreview.org/",
-    image: "photo-1434030216411-0b793f4b4173", // Policy documents and research
-  },
-  {
-    title: "MIT GOV/Lab",
-    url: "https://mitgovlab.org/",
-    image: "photo-1589829545856-d10d557cf95f", // Keep existing image
-  },
-  {
-    title: "MIT Centre for International Studies",
-    url: "https://cis.mit.edu/",
-    image: "photo-1523287562758-66c7fc58967f", // Keep existing image
-  },
-  {
-    title: "Blueprints Lab",
-    url: "https://blueprintlabs.mit.edu/",
-    image: "photo-1581092160562-40aa08e78837", // Keep existing image
+    image: "photo-1532619675605-1ede6c2ed2b0",
+    description: "Bridging science and policy through research and analysis"
   },
   {
     title: "Future of Work",
     url: "https://shapingwork.mit.edu/",
-    image: "photo-1552664730-d307ca884978", // Modern workplace with technology
+    image: "photo-1486406146926-c627a92ad1ab",
+    description: "Exploring the evolution of work and workplace innovation"
   },
   {
-    title: "Mobility Initiative",
-    url: "https://www.mmi.mit.edu/",
-    image: "photo-1519389950473-47ba0277781c", // Keep existing image
+    title: "MIT Energy Initiative",
+    url: "https://energy.mit.edu/",
+    image: "photo-1555949963-ff9fe0c870eb",
+    description: "Research and education in energy technology"
   },
   {
-    title: "Economics",
-    url: "https://economics.mit.edu/",
-    image: "photo-1554224155-8d04cb21cd6c", // Keep existing image (as requested)
+    title: "MIT Media Lab",
+    url: "https://www.media.mit.edu/",
+    image: "photo-1555949963-ff9fe0c870eb",
+    description: "Research and innovation in media and technology"
+  },
+  {
+    title: "MIT Center for International Studies",
+    url: "https://cis.mit.edu/",
+    image: "photo-1555949963-ff9fe0c870eb",
+    description: "Research on global issues and international relations"
+  },
+  {
+    title: "MIT Center for Biomedical Innovation",
+    url: "https://cbi.mit.edu/",
+    image: "photo-1555949963-ff9fe0c870eb",
+    description: "Innovating in biomedical research and development"
+  },
+  {
+    title: "MIT Urban Studies and Planning",
+    url: "https://dusp.mit.edu/",
+    image: "photo-1555949963-ff9fe0c870eb",
+    description: "Research on urban development and planning"
+  },
+  {
+    title: "MIT Sloan School of Management",
+    url: "https://sloan.mit.edu/",
+    image: "photo-1555949963-ff9fe0c870eb",
+    description: "Education and research in management and business"
+  },
+  {
+    title: "MIT Institute for Data, Systems, and Society",
+    url: "https://idss.mit.edu/",
+    image: "photo-1555949963-ff9fe0c870eb",
+    description: "Research on data-driven decision making"
   },
 ];
